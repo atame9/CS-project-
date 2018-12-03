@@ -1,0 +1,87 @@
+<DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="In depth look at probability">
+        <meta name="keywords" content="Probability, discrete structure, Professor Mingla">
+        <meta name="author" content="Aaron Tame">
+            
+        <title>Probability In Depth | Home page </title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="Prob">
+                    <h1><span class="highlight">Probability</span> in Depth</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="practicequestions.html">Practice Questions</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="showcase">
+            <div class="container">
+                <h1>An in Depth Look at Probability</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim diam sit amet lorem aliquet mollis. Integer venenatis commodo arcu. Nulla non massa imperdiet, tristique neque sed, dictum quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ut turpis a enim malesuada feugiat et quis nisl. Ut pulvinar, ante at convallis dictum, eros lectus congue justo, id tristique erat velit sed est. Aenean sagittis dignissim diam, a pretium augue dignissim in. Mauris eu urna ac felis semper sagittis. Fusce iaculis neque in est ultrices sagittis. Sed nunc nunc, auctor nec pharetra sed, imperdiet sit amet lacus.</p>
+            </div>
+        </section>
+        
+        <section id="newsletter">
+            <div class="container">
+                <h1>Enter Your Email for Further Questions</h1>
+                <form>
+                    <input type="email" placeholder="Enter Email.....">
+                    <button type="submit" class="button_1">Submit</button>
+                </form>
+            </div>
+        </section>
+        
+        <section id="Boxes">
+            <div class="container">
+                <div class="box">
+                    <h3>Probablity Venn Diagrams and Definition</h3>
+                    <img src="IMG/img3.png">
+                    <p>If a random experiment is repeated N times, in such a way that each of the trials is identical and independent, where n(A)is the number of times event A has occured after N trials, then As N → ∞, n(A) / N → P(A)</p>
+                </div>
+                <div class="box">
+                    <h3>CSS3 Styling</h3>
+                    <img src="IMG/img4.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim diam sit amet lorem aliquet mollis. Integer venenatis commodo arcu. Nulla non massa imperdiet, tristique neque sed, dictum quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="box">
+                     <h3>Design</h3>
+                    <img src="IMG/3.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim diam sit amet lorem aliquet mollis. Integer venenatis commodo arcu. Nulla non massa imperdiet, tristique neque sed, dictum quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    
+                    <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+                    <script>
+                        var data = [{
+                            values: [50, 25, 25],
+                            labels: ['Gay', 'Lesbians', 'Straight'],
+                            type: 'pie'
+                            }];
+
+                            Plotly.newPlot('myDiv', data);
+                    </script>
+                
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Probability in Depth, Copyright &copy; 2018</p>
+        </footer>
+    </body> 
+</html> 
+
+
+
